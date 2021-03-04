@@ -185,7 +185,7 @@ if __name__ == '__main__':
     # plotting/printing all possible lines of reflection
     for each in required_lines:
         plot_lines(each)
-    plt.savefig("/output/graphs.png")
+    plt.savefig("./output/graphs.png")
     plt.show()
 
 
