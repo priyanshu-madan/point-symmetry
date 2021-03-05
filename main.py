@@ -185,7 +185,11 @@ if __name__ == '__main__':
     # plotting/printing all possible lines of reflection
     for each in required_lines:
         plot_lines(each)
-    plt.savefig("output/graphs.png")
+
+    try: #output directory different for docker and github clone
+        plt.savefig("/output/graphs.png")
+    except:
+        plt.savefig("./output/graphs.png")
     plt.show()
 
 
