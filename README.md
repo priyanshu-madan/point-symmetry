@@ -2,7 +2,7 @@
 
 Create and implement an algorithm that, when given a set of points on an infinite plane, will return the complete set of lines of symmetry for those points.
 
-A line of symmetry is defined to be a line such that every point in the input set, when reflected across the line, finds another point in the input set. And we would like the code to find for us the guaranteed-complete set of these lines.
+A line of symmetry is defined to be a line such that every point in the input set, when reflected across the line, finds another point in the input set. Find the guaranteed-complete set of these lines.
 
 ## Installation process
 
