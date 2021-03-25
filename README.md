@@ -1,4 +1,4 @@
-# point-symmetry
+# Line of symmetry detection
 
 Create and implement an algorithm that, when given a set of points on an infinite plane, will return the complete set of lines of symmetry for those points.
 
